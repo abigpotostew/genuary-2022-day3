@@ -1,0 +1,6 @@
+/*!	Curve calc function for canvas 2.3.1
+ *	Epistemex (c) 2013-2014
+ *	License: MIT
+ */
+
+/*! p5.js v1.4.0 June 29, 2021 */
