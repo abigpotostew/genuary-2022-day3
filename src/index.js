@@ -47,7 +47,7 @@ const sketch = p5 => {
     p5.draw = () => {
         p5.background(colorScheme.tertiary({brightness: .3}));
 
-        if (p5.keyIsDown(32)) {
+        if (p5.keyIsDown(32) || p5.mouseIsPressed) {
             acceleration += 0.0025
             if (acceleration >= 0.05 && colorFlipAllowed) {
                 colorScheme = new ColorScheme(p5)
